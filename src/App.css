@@ -1,0 +1,210 @@
+.App {
+  text-align: center;
+  background-color: rgb(148, 179, 192);
+  overflow: scroll;
+
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.todo-item
+{
+  display:flex;
+  align-items:center;
+  border:1px solid rgb(45, 45, 45);
+  width: 1000px;
+  margin: 10px;
+  padding-right: 10px;
+  height: 50px;
+    /* position: relative;
+    display: block;
+    margin: auto; */
+    background-color: rgb(218, 189, 221);
+    /* position: absolute; */
+
+}
+
+.add {
+  position: absolute;
+  top: 0px;
+  /* background-color: black; */
+  /* min-height: 400px; */
+  display:inline-block
+}
+
+
+
+.deleteButton
+{
+  position: relative;
+  display: block;
+  text-align:center;
+  /* margin: auto; */
+  background-color: rgb(248, 145, 145);
+  margin-left: 10px;
+
+  font-size: 10px;
+  border: 2px;
+  border-color: black;
+  /* border-radius: 20px; */
+  /* padding: 20px; */
+  width: 150px;
+  /* margin-bottom: 20px; */
+  /* position:relative;  */
+  left:-589px; 
+  top:17px;
+
+}
+
+
+.deleteButton:hover {
+  background-color: rgb(255, 255, 255);
+  border: 3px;
+}
+
+.sortButton
+{
+  position: relative;
+  display: block;
+  text-align:center;
+  margin: auto;
+  background-color: rgb(185, 182, 233);
+
+  font-size: 15px;
+  border: 2px;
+  border-color: black;
+  /* border-radius: 20px; */
+  padding: 20px;
+  width: 200px;
+  margin-bottom: 20px;
+  border: 2px solid rgb(104, 104, 107);
+
+}
+.sortButton:hover {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(104, 104, 107);
+
+}
+
+.addButton
+{
+  position: relative;
+  display: block;
+  text-align:center;
+  margin: auto;
+  background-color: rgb(182, 233, 186);
+
+  font-size: 15px;
+  border: 2px;
+  border-color: black;
+  /* border-radius: 20px; */
+  padding: 20px;
+  width: 200px;
+  margin-bottom: 20px;
+  border: 2px solid rgb(104, 104, 107);
+
+}
+
+.addButton:hover {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(104, 104, 107);
+
+}
+
+
+.input
+{
+  /* margin: 20px;
+  border:darkblue;
+  width: 500px;
+  height: 100px; */
+  border: 2px solid rgb(104, 104, 107);
+  width: 500px;
+  height: 65px;
+  margin-left:auto; 
+  margin-right:auto;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  position: relative;
+  overflow: scroll;
+}
+
+
+.toDoTitle
+{
+  position: relative;
+    font-size: 20px;
+    /* padding: 10px 10px 15px 35px; */
+    /* background-color: rgb(129, 164, 236); */
+    text-align: left;
+    width: 1000px;
+    display: inline-block;
+    /* overflow: hidden; */
+    white-space: nowrap;
+    top: -5px;
+}
+
+.ALL
+{
+  /* border:black 2px;
+  background-color: black; */
+  position:relative;
+  top: 100px;
+  height: 80%;
+  overflow: scroll;
+  display:inline-block;
+  /* position:absolute;  */
+  /* bottom: 1000px; */
+
+}
+
+.date {
+  font-size: 12px;
+
+}
+
+.space
+{
+  width: 300px;
+}
+
+h {
+text-align:center;
+padding: 20px;
+}
+
+@media (max-width: 1200px){
+  .todo-item
+  {
+    width: 400px;
+  }
+  .toDoTitle
+  {
+    width: 400px;
+  }
+  .input
+{
+  width:200px;
+}
+.deleteButton
+{
+  position: relative;
+  display: block;
+  text-align:center;
+  left:0px; 
+  top:0px;
+}
+
+
+}    
